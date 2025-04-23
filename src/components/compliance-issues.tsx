@@ -68,7 +68,7 @@ export function ComplianceIssues() {
                     startAngle={90}
                     endAngle={-270}
                     labelLine={false}
-                    label={({ cx, cy, midAngle, innerRadius, outerRadius, percent, index, name, value }) => {
+                    label={({ cx, cy, midAngle, innerRadius, outerRadius, /* percent, index, name, */ value }) => {
                       const RADIAN = Math.PI / 180;
                       const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
                       const x = cx + radius * Math.cos(-midAngle * RADIAN);

@@ -2,10 +2,10 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { useTheme } from "@/components/theme-provider";
+// import { useTheme } from "@/components/theme-provider";
 
 export function SummaryStats() {
-  const { darkMode } = useTheme();
+  // const { darkMode } = useTheme();
   
   return (
     <Card className="bg-white border-gray-200 shadow-sm">

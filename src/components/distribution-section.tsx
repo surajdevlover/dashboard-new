@@ -9,7 +9,7 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
+  // Legend,
 } from "recharts";
 
 // Data for Visit Traffic distribution

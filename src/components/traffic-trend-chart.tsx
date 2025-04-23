@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
-  LineChart,
+  // LineChart,
   Line,
   XAxis,
   YAxis,
@@ -10,7 +10,7 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
-  BarChart,
+  // BarChart,
   Bar,
   ComposedChart,
 } from "recharts";

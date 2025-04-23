@@ -1,13 +1,13 @@
 "use client";
 
-import { useTheme } from "@/components/theme-provider";
+// import { useTheme } from "@/components/theme-provider";
 import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
+  // Table,
+  // TableBody,
+  // TableCell,
+  // TableHead,
+  // TableHeader,
+  // TableRow,
 } from "@/components/ui/table";
 import {
   PieChart,
@@ -132,7 +132,7 @@ const deviceSignatureData = [
 ];
 
 export function InvalidTrafficAnalysis() {
-  const { darkMode } = useTheme();
+  // const { darkMode } = useTheme();
   
   return (
     <div className="border border-gray-300 rounded-md bg-white">
@@ -340,7 +340,7 @@ export function InvalidTrafficAnalysis() {
                           dataKey="value"
                           nameKey="name"
                           labelLine={false}
-                          label={({ cx, cy, midAngle, innerRadius, outerRadius, percent, index, name, value }) => {
+                          label={({ cx, cy, midAngle, innerRadius, outerRadius, index, value }) => {
                             const RADIAN = Math.PI / 180;
                             const radius = 25 + innerRadius + (outerRadius - innerRadius);
                             const x = cx + radius * Math.cos(-midAngle * RADIAN);
