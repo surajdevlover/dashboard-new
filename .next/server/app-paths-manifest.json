@@ -1,0 +1,6 @@
+{
+  "/analysis/page": "app/analysis/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/fraud-analytics/page": "app/fraud-analytics/page.js",
+  "/page": "app/page.js"
+}
